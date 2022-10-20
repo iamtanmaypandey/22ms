@@ -8,121 +8,256 @@
   <title>IISERM 22MS Unofficial Page</title>
 
 <style>
-  body{
-    background:white;
+  @media(min-width:993px){
+    .hide-lg{display:none;}
+    
   }
-    @media(min-width:993px){.hide-lg{display:none;}}
-    @media(max-width:992px){.hide-sm{display:none;}}
+  @media(max-width:992px){
+    .hide-sm{display:none;}
+  }
+  body {
+    background-color: white;
+  }
+  svg {
+    padding-top: 0.2rem;
+    filter:  invert(22%) sepia(7%) saturate(238%) hue-rotate(2deg) brightness(95%) contrast(85%);
+  }
+
 </style>
 </head>
-<body>
+<body id="body">
     
-    <nav class="border fixed split-nav">
+  <nav class="border fixed split-nav">
   <div class="nav-brand">
     <h3><a href="#">IISER-Mohali</a></h3>
   </div>
   <div class="collapsible">
     <input id="collapsible1" type="checkbox" name="collapsible1">
     <label for="collapsible1">
-      <div class="bar1"></div>
-      <div class="bar2"></div>
-      <div class="bar3"></div>
+      <!-- <div class="bar"></div>
+      <div class="bar"></div>
+      <div class="bar"></div> -->
+      <svg viewBox="0 0 100 80" width="40" height="40">
+        <rect width="100" height="10"></rect>
+        <rect y="30" width="100" height="10"></rect>
+        <rect y="60" width="100" height="10"></rect>
+      </svg>
     </label>
     <div class="collapsible-body">
       <ul class="inline">
-        <li><a href="https://instagram.com/iiserm.ms22">Instagram</a></li>
-        <li><a href="https://t.me/+5zqb1IVtx6k5YTg1">MS21-22 Buffer </a></li>
-        <li><a href="https://t.me/+mOj1mKTqmcw5Mjll">Telegram Verification</a></li>
-        <li><a href="https://discord.gg/ZJQUGgXM">Discord</a></li>
+        <li><a href="#social">Our Social</a></li>
+        <li><a href="#photos">Campus Photos</a></li>
+        <li><a href="#whatsapp">MS22 Verification</a></li>
+        <li><a href="#qa">Queries and Answers</a></li>
       </ul>
     </div>
   </div>
 </nav>
+<main class="paper">
   <p style="padding-top:35px"></p>
- <center>
+ <!--center>
     <video controls loop autoplay style="width:96%;" class="hide-lg">
       <source src="http://iamtanmaypandey.000webhostapp.com/M.mp4" type="video/mp4"/>
   </video> 
    <video controls loop autoplay style="width:56%;" class="hide-sm">
       <source src="http://iamtanmaypandey.000webhostapp.com/M.mp4" type="video/mp4"/>
   </video> 
- </center> 
+ </center--> 
   
+ 
   <br>
   
   <div class="container">
-    <div style="width:30%;float:left">
-        <img class="hide-sm" height="auto" src="https://www.iisermohali.ac.in/images/Logo_HR/iisermlogo.jpg">
-        <img class="hide-lg" height="auto" src="https://www.iisermohali.ac.in/images/Logo_HR/iisermlogo.jpg">
+    <div class="hide-sm" >
+        <div style="width:30%;float:left">
+          <center>
+            <img  style="height:200px" src="https://www.iisermohali.ac.in/images/Logo_HR/iisermlogo.jpg">
+          </center>  
+        </div>
+        <div style="width:60%;font-size:30px;padding-left:10%;float:left">
+          <strong><big>W</big></strong>elcome to <em>IISER-Mohali</em>'s unofficial github page for MS22. This page has been created by IISER-Mohali 22MS batch students to help and connect with others who are going to join IISER-Mohali in 2022 for BSMS course.
+        </div>
+      <div style="clear:both"></div>
     </div>
-    <div style="width:60%;padding-left:10%;float:left">
-        <b><big>W</big></b>elcome to <i>IISER-Mohali</i>'s unofficial github page for MS22. This page has been created by IISER-Mohali 22MS batch students to help and connect with others who are going to join IISER-Mohali in 2022 for BSMS course.
+    <div class="hide-lg">
+      <center>
+        <img src="https://www.iisermohali.ac.in/images/Logo_HR/iisermlogo.jpg" width="80%"/>
+        <h4>
+          <strong><big>W</big></strong>elcome to <em>IISER-Mohali</em>'s unofficial github page for MS22. This page has been created by IISER-Mohali 22MS batch students to help and connect with others who are going to join IISER-Mohali in 2022 for BSMS course.
+        </h4>
+        
+     
+      </center>
     </div>
-    <div style="clear:both"></div>
-    
   </div>
+
+  <br>
+
+  <h3 id="social">Our Socials</h3>
+  <center>
+    <a class="paper-btn" style="text-decoration: none;" href="http://instagram.com/iiserm.ms22">
+      <img src="insta.png" height="50px" style="float:left;height:50px;border:0px;"/>
+      <span style="float:left;padding-top:7px;font-size:30px;padding-left:20px">Instagram</span>
+      <div style="clear:both"></div>
+    </a>
+
+    <a class="paper-btn" style="text-decoration: none;" href="https://discord.gg/ZJQUGgXM">
+      <img src="buffer.png" height="50px" style="float:left;height:50px;border:0px;"/>
+      <span style="float:left;padding-top:7px;font-size:30px;padding-left:20px">Discord</span>
+      <div style="clear:both"></div>
+    </a>
+
+    <a class="paper-btn" style="text-decoration: none;" href="https://telegram.me/+mOj1mKTqmcw5Mjll">
+      <img src="telegtram.png" height="50px" style="float:left;height:50px;border:0px;"/>
+      <span style="float:left;padding-top:7px;font-size:30px;padding-left:20px">Telegram</span>
+      <div style="clear:both"></div>
+    </a>
+
+    <a class="paper-btn" style="text-decoration: none;" href="#whatsapp">
+      <img src="whatsapp.png" height="50px" style="float:left;height:50px;border:0px;"/>
+      <span style="float:left;padding-top:7px;font-size:30px;padding-left:20px">Whatsapp</span>
+      <div style="clear:both"></div>
+    </a>
+  </center>
+
+  <div id="photos">
+    <h3>Campus Photos</h3>
+    <div class="row">
+      <div class="col-4 col">
+        <img src="photo1664420468(17).jpeg">
+      </div>
+      <div class="col-4 col">
+        <img src="photo1664420468(16).jpeg">
+      </div>
+      <div class="col-4 col">
+        <img src="photo1664420468(15).jpeg">
+      </div>
+      <div class="col-4 col">
+        <img src="photo1664420468(14).jpeg">
+      </div>
+      <div class="col-4 col">
+        <img src="photo1664420468(13).jpeg">
+      </div>
+      <div class="col-4 col">
+        <img src="photo1664420468(12).jpeg">
+      </div>
+      <div class="col-4 col">
+        <img src="photo1664420468(11).jpeg">
+      </div>
+      <div class="col-4 col">
+        <img src="photo1664420468(10).jpeg">
+      </div>
+      <div class="col-4 col">
+        <img src="photo1664420468(9).jpeg">
+      </div>
+      <div class="col-4 col">
+        <img src="photo1664420468(8).jpeg">
+      </div>
+      <div class="col-4 col">
+        <img src="photo1664420468(7).jpeg">
+      </div>
+    </div>
+  </div>
+
   
-  <div class="container">
-      <h2>Doubts during pre-registration and other</h2>
-      <div class="row">
- 
-  <div class="collapsible">
-    <input id="collapsible2" type="checkbox" name="collapsible">
-    <label for="collapsible2">What is mail id of IISERM?</label>
-    <div class="collapsible-body">
-      <span>
-          <div class="col-6 col">
-    <a style="text-decoration:none" href="mailto:deanacad@iiserm.ac.in" class="btn-block">deanacad@iiserm.ac.in</a>
-  </div>
-      </span>
-    </div>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible3" type="checkbox" name="collapsible">
-    <label for="collapsible3">When do we have to report to institute?</label>
-    <div class="collapsible-body">
-      <span>
-      As per the notification, it is 29th October.<br>
-      <a href="https://www.iisermohali.ac.in/home/front-page-articles/information-for-registration-of-bs-ms-2022-batch-students" class="btn-block">Link to notification</a>
-      </span>
-    </div>
-  </div>
-  <div class="collapsible">
-    <input id="collapsible4" type="checkbox" name="collapsible">
-    <label for="collapsible4">When our classes will start?</label>
-    <div class="collapsible-body">
-      <span>31st October</span>
-    </div>
-  </div>
+<div id="whatsapp">
+  <h3>
+    The 4-Easy steps to verify and get yourself added to Whatsapp Group
+  </h3>
+  <div class="row flex-spaces tabs">
+    <input id="tab1" type="radio" name="tabs" checked>
+    <label for="tab1">Step 1</label>
   
-   <div class="collapsible">
-    <input id="collapsible5" type="checkbox" name="collapsible">
-    <label for="collapsible5">What is process for pre-reg?</label>
-    <div class="collapsible-body">
-      <span>After freezing the seat, you will typically get a mail from IISER-M in 1 week with link to do pre-reg.</span>
-    </div>
-  </div>
+    <input id="tab2" type="radio" name="tabs">
+    <label for="tab2">Step 2</label>
   
-  <div class="collapsible">
-    <input id="collapsible6" type="checkbox" name="collapsible">
-    <label for="collapsible6">What to submit, self attested doc or original in pre-reg?</label>
-    <div class="collapsible-body">
-      <span>You have to submit original documents in pre-registration.</span>
-    </div>
-  </div>
+    <input id="tab3" type="radio" name="tabs">
+    <label for="tab3">Step 3</label>
   
-  <div class="collapsible">
-    <input id="collapsible7" type="checkbox" name="collapsible">
-    <label for="collapsible7">What is difference between application form and admission form?</label>
-    <div class="collapsible-body">
-      <span>
-      When you login into IISER Candidate portal, you have to go to your channel of application (SCB/KVPY/IITJEE), then click on <b>edit/view</b>, the page you are at now is application form. Press CTRL+P to take print of that.
-    <i>Admission form</i>, can be found <a href="https://www.iiseradmission.in/resources/docs/AdmissionForm.pdf" class="btn-block">here</a>
-      </span>
-    </div>
-  </div>
+    <input id="tab4" type="radio" name="tabs">
+    <label for="tab4">Step 4</label>
   
+    <div class="content" id="content1">
+      <p>
+        Download telegram and create an account in it.
+      </p>
+    </div>
+    <div class="content" id="content2">
+      <p>
+        Join IISER-Mohali verification group.
+      </p>
+      <a href="https://telegram.me/+mOj1mKTqmcw5Mjll" class="paper-btn" style="text-decoration:none;">Click here to join</a>
+    </div>
+    <div class="content" id="content3">
+      <p>
+        Send your <B>Decision Making</B> screenshot, where it should be easily seen that you have freezed IISER-Mohali to any of the admins mentioned in welcome message.
+      </p>
+      <p>
+        Admin will verify and add you to the group of MS22 with MS21 seniors in it.
+      </p>
+    </div>
+    <div class="content" id="content4">
+      <p>
+        Join the whatsapp group from link in pinned message there.
+      </p>
+    </div>
+  </div>  
+
 </div>
-  </div>
+
+<div id="qa">
+  <h4>Queries and Answers:</h4>
+
+  <center>
+    <div class="row">
+      <div class="collapsible">
+        <input id="collapsible5" type="radio" name="collapsible">
+        <label for="collapsible5">What is reporting date? The notification issued on website.</label>
+        <div class="collapsible-body">
+          <span>
+            As per the notification issued on the website, it's 29th October.
+          </span>
+        </div>
+      </div><br><br>
+      <div class="collapsible">
+        <input id="collapsible6" type="radio" name="collapsible">
+        <label for="collapsible6">When will classes start?</label>
+        <div class="collapsible-body">
+          <span>
+            It's starting from 31st October.
+          </span>
+        </div>
+      </div><br>
+      <div class="collapsible">
+        <input id="collapsible7" type="radio" name="collapsible">
+        <label for="collapsible7">Where can I find admission form and application form?</label>
+        <div class="collapsible-body">
+          <span>
+            <li><i>Application form</i>, can be found at after logging into candidate portal, then navigating to the channel you got seat from, click on edit\view, the first page you see is admission form.</li>
+            <li><i>Admission form</i>, it can be found on IISERadmission.in.</li>
+
+            <a href="https://www.iiseradmission.in/resources/docs/AdmissionForm.pdf" class="paper-btn" style="text-decoration:none">Admission Form</a>
+            
+            <a href="https://cdn.digialm.com/EForms/configuredHtml/2245/76580/login.html" class="paper-btn" style="text-decoration:none">Application Form</a>
+            
+          </span>
+        </div>
+      </div>
+      <div class="collapsible">
+        <input id="collapsible8" type="radio" name="collapsible">
+        <label for="collapsible8">How to contact IISERM?</label>
+        <div class="collapsible-body">
+          <span>
+            <a class="paper-btn" style="text-decoration:none;" href="mailto:deanacad@iiserm.ac.in">Click Here</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </center>
+
+</div>
+
+</main>
+ 
   </body>
 </html>
